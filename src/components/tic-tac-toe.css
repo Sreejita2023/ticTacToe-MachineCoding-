@@ -1,0 +1,13 @@
+.game{
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+}
+.box{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
